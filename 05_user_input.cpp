@@ -2,13 +2,18 @@
 
 int main()
 {
-    int x, y;
-    int sum;
-    std::cout << "Type a number: " << std::endl;
-    std::cin >> x;
-    std::cout << "Type another number: " << std::endl;
-    std::cin >> y;
-    sum = x + y;
-    std::cout << "Sum is: " << sum << std::endl;
+    int number1;
+    int number2;
+
+    std::cout << "Enter first number: " << std::endl;
+    std::cin >> number1;
+
+    std::cout << "Enter second number: " << std::endl;
+    std::cin >> number2;
+
+    int result = number1 + number2;
+
+    std::cout << "Addition: " << result << std::endl;
+
     return 0;
 }
